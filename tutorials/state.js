@@ -28,6 +28,7 @@ export default class BlinkApp extends Component {
   render() {
     return (
       <View>
+	  //The text itself gets set once when the blinking component gets created, so the text itself is a prop.
         <Blink text='I love to blink' />
         <Blink text='Yes blinking is so great' />
         <Blink text='Why did they ever take this out of HTML' />
